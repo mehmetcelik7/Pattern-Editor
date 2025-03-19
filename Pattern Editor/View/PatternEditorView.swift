@@ -37,7 +37,7 @@ struct PatternEditorView: View {
                                 lineWidth: name.isEmpty ? 3 : 1
                             )
                     }
-                    .frame(maxWidth: 300)
+                    .frame(minWidth: 300)
                     
                     Button(
                         "Clear",
