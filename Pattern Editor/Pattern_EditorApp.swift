@@ -11,7 +11,7 @@ import SwiftUI
 struct Pattern_EditorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(n: 15)
         }
     }
 }
